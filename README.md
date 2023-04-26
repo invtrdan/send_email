@@ -5,10 +5,10 @@
 2. Go to 'Security'
 3. Go to 'How you sign in to Google'
 4. Turn on 2-Step Verification to get a 16 character password that we can use to login to gmail using python.
-4a. Click '2-Step Verification
-4b. Click 'Get Started'
-4c. Login to your account.
-4d. Click 'Turn On'
+* Click '2-Step Verification
+* Click 'Get Started'
+* Login to your account.
+*. Click 'Turn On'
 5. Go to myaccount.google.com/apppasswords
 6. Click the arrow to the right of 'Select app'
 7. Select Other (Custom name)
