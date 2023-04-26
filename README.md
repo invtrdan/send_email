@@ -8,7 +8,7 @@
 * Click '2-Step Verification
 * Click 'Get Started'
 * Login to your account.
-*. Click 'Turn On'
+* Click 'Turn On'
 5. Go to myaccount.google.com/apppasswords
 6. Click the arrow to the right of 'Select app'
 7. Select Other (Custom name)
