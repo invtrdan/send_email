@@ -5,7 +5,7 @@ sender_email = 'pythonwik@gmail.com'
 sender_email_password = 'wtyjsnymuoaepmhq' 
 
 def send_email(receiver_email, username, subject, message):
-    body = "Dear " + username + "," + "\n\n" + message + "\n\nThe Python Wiki Team"
+    body = "Dear " + username + "," + "\n" + message + "\nThe Python Wiki Team"
 
     em = EmailMessage()
     em['From'] = sender_email

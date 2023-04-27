@@ -15,3 +15,5 @@
 8. Name the app 'Python'(or whatever you would like to name the app)
 9. Click Generate
 10. Record the app password. Store it somewhere secure.
+11. Define sender_email, sender_email_password in main.py
+
