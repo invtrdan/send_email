@@ -1,8 +1,11 @@
 from email.message import EmailMessage
 import ssl, smtplib
 
-def send_email(sender_email, sender_email_password, receiver_email, username, subject, message):
-    body = "Dear " + username + "," + "\n" + message + "\nThe Python Wiki Team"
+sender_email = 'pythonwik@gmail.com'
+sender_email_password = 'wtyjsnymuoaepmhq' 
+
+def send_email(receiver_email, username, subject, message):
+    body = "Dear " + username + "," + "\n\n" + message + "\n\nThe Python Wiki Team"
 
     em = EmailMessage()
     em['From'] = sender_email
@@ -17,8 +20,7 @@ def send_email(sender_email, sender_email_password, receiver_email, username, su
         smtp.sendmail(sender_email, receiver_email, em.as_string())
     return
 
-sender_email = 'pythonwik@gmail.com'
-sender_email_password = 'wtyjsnymuoaepmhq' 
+
 receiver_email = 'dansammci@gmail.com'
 
 
@@ -27,4 +29,4 @@ subject = 'The Python Wiki'
 message = 'Welcome to the Python Wiki hub 😎!'
 
 
-send_email(sender_email, sender_email_password, receiver_email, username, subject, message)
+send_email(receiver_email, username, subject, message)
